@@ -4,17 +4,12 @@
 //3. Manage sequence of parameters
 
 // Benefits of using builder pattern
-//1. Multiple constructors (telescoping constructors)
+//1. Multiple constructors (telescoping constructors) can be avoided
 //2. New attributes can be added without changes at multiple place
 //3. Tread safe
 //4. Immutable objects - as objects setters not added in main class
 
 package builder.com.app;
-
-import abstract_factory.com.app.AbstractFactory;
-import abstract_factory.com.app.CarCompany;
-import abstract_factory.com.app.CarType;
-import abstract_factory.com.app.FactoryProducer;
 
 public class App {
     public static void main(String[] args) {

@@ -1,3 +1,6 @@
+//Application class doesn't have to take care of creating instances
+
+
 package factory.com.app;
 
 public class App {
@@ -8,3 +11,7 @@ public class App {
 
     }
 }
+
+//AnimalBuilder can create animal object based on input parameters
+
+

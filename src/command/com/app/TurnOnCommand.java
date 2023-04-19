@@ -2,7 +2,7 @@ package command.com.app;
 
 public class TurnOnCommand implements Command {
 
-    private Light light = new Light();
+    private Light light;
 
     public TurnOnCommand(Light light) {
         this.light = light;

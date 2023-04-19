@@ -1,7 +1,11 @@
+//Behavioural Pattern
 //Use to create template for common behaviour of similar objects
-// Inheritance ove composition. Decides on object type at runtime
-// opposite to Strategy pattern
+// Inheritance over composition. Decides on object type at runtime
+// Opposite to Strategy pattern
 // if solution can be achieved using Strategy pattern, then using Strategy pattern is recommended
+
+// Abstract parent call is created to enforce child class to implement it
+// Final methods are added in parent class to prevent child class for changing behaviour
 
 package template.com.app;
 

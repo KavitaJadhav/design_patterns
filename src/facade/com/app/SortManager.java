@@ -6,12 +6,14 @@ public class SortManager {
     private Sorter quickSorter;
 
     public SortManager() {
+        /*Sorters are initialised in constructor to avoid creating them in every call   */
         bubbleSorter = new BubbleSort();
         mergeSorter = new MergeSort();
         quickSorter = new QuickSort();
     }
 
     public void bubbleSort() {
+        /*Sorters are initialised in constructor to avoid creating them in every call   */
         bubbleSorter.sort();
     }
 

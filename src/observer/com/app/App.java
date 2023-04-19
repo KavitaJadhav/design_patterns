@@ -1,8 +1,12 @@
+//Behavioural Pattern
+//Used when multiple other entities are interested in subject's state change
+
 //Observer pattern promotes loose coupling
 //Observer and subject knows very less about each other
-//Follows open close principle. When new observer added, neither subject nor existing observers impacted
+//When a new observer is added, it's registered in subjects observers list
+//Follows open close principle. When new observer added, neither subject nor existing observers impacted(subjects observer lists can be updated dynamically)
 //Subject implements Subject interface
-//observers implements observers interface
+//Observers implements observers interface
 
 package observer.com.app;
 

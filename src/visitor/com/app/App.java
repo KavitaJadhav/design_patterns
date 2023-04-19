@@ -2,32 +2,26 @@
 // With the help of visitor pattern, we can move the operational logic from the objects to another class.
 //It decouples the operations from an object structure. We can add behaviour for existing classes
 
-package visitor.com.app;
+//Get sum of items in shopping cart
 
-import java.util.ArrayList;
-import java.util.List;
+//Description - site visitor adds items in cart and checks for cart value. Multiple visitors can access same details on same item
+//Items are accepting visitor and
+
+package visitor.com.app;
 
 public class App {
 
     public static void main(String[] args) {
-        List<ShoppingItem> items = new ArrayList<>();
-        items.add(new Chair("Office", 100));
-        items.add(new Chair("Dining", 70));
-        items.add(new Table("Desc", 150));
-
-
         ShoppingCartVisitor visitor = new ShoppingCartVisitor();
-        double sum = 0;
 
+        Cart cart = new Cart(visitor);
+        cart.add(new Chair("Office", 100));
+        cart.add(new Chair("Dining", 70));
+        cart.add(new Table("Desc", 150));
 
-        for (ShoppingItem shoppingItem : items) {
-            sum += shoppingItem.accept(visitor);
-
-        }
-
-        System.out.println("Cart total: " + sum);
+        cart.value();
+        System.out.println("Cart total: " + cart.value());
     }
-
 }
 
 //ShoppingItem Interface

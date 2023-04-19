@@ -1,5 +1,6 @@
+// Behavioural Pattern
 // Null object pattern is used to represent absence ob object
-//it is used to avoid null pointer exception and avoid if checks
+// It is used to avoid null pointer exception and avoid if checks
 
 package null_object.com.app;
 
@@ -11,8 +12,8 @@ public class App {
     }
 }
 
-//Customer - Abstract class
-//NullCustomer, RealCustomer
-//RealCustomer
 //Database(List of customer name)
-//CustomerFactory(read customer)
+//CustomerFactory - Maintains customer database(read/write customer customer)
+//Customer - Abstract class
+//RealCustomer -inherits customer, return values based on input
+//NullCustomer - inherits customer,return default behaviour

@@ -1,7 +1,5 @@
 package fly_weight.com.app;
 
-import command.com.app.Command;
-
 import java.util.Random;
 
 public class ShapeSimulator {

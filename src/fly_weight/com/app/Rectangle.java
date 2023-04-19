@@ -11,7 +11,7 @@ public class Rectangle implements Shape {
 
     @Override
     public void draw() {
-        System.out.println("Drawing shape of color: " + color + ", x_coordinate: " + x_coordinate + ", y_coordinate" + y_coordinate);
+        System.out.println("Drawing shape of color: " + color + ", x_coordinate: " + x_coordinate + ", y_coordinate: " + y_coordinate);
     }
 
     public void setY_coordinate(int y_coordinate) {

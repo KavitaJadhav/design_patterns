@@ -1,4 +1,8 @@
+//Behavioural Pattern
 //Iterator pattern is used to iterate over collection of item irrespective of their type/internal details
+//Java collections uses iterator pattern
+// Iterator can wok with different types of objects
+
 package iterator.com;
 
 import java.util.ArrayList;
@@ -34,6 +38,6 @@ public class App {
 }
 
 //Iterator interface (hasNext and next methods)
-//ListIterator implements Iterator
-// TaskList implements iterator
-//PersonList implements iterator
+//ListIterator implements Iterator - it has list of items(it will iterate on items)
+//TaskIterator - Arraylist of tasks, and iterator(listIterator)
+//PersonIteration - ArrayList of people, and iterator(listIterator)

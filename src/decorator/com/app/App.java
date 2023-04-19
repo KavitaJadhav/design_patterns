@@ -1,7 +1,12 @@
 //Structural design pattern
-//Uses Composition
+//Inheritance has limitation of extending 1 class only. (static behaviour)
+//Uses Composition - Add behaviour dynamically
 //run time object creation, behaviour can be changes dynamically
 //Gives flexible alternation for subclasses(when multiple branching)
+
+
+//create base beverage
+//addon(base)
 
 package decorator.com.app;
 
