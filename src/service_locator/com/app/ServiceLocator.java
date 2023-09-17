@@ -11,7 +11,7 @@ public class ServiceLocator {
         }
 
         ServiceRepository repository = new ServiceRepository();
-        System.out.println("Service missing in Creating Service: " + name);
+        System.out.println("Service missing in cache. Creating Service: " + name);
         service = repository.get(name);
         cache.add(service);
         return service;

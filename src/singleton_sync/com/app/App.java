@@ -1,6 +1,6 @@
 //creational design patterns
 //Used to create only one instance
-//its not thread safe
+//it's not thread safe
 //use synchronized block to make it threadsafe, it can slow down execution
 //prone to reflection attack even after synchronization
 

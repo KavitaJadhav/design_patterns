@@ -11,6 +11,7 @@ public class WeatherObserver implements Observer {
         this.temperature = temperature;
         this.humidity = humidity;
         this.pressure = pressure;
+        this.subject = subject;
         subject.addObserver(this);
     }
 

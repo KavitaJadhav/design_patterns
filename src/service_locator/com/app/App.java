@@ -1,7 +1,7 @@
 //Structural design pattern
 //it contain repository of services and application can access service from repository when required
 //It follows dependency inversion principle - loosely couple architecture
-//it identify service at run time. Runtime error instead of compile time error
+//it identifies service at run time. Runtime error instead of compile time error
 
 //JNDI - Java Naming and Directory Interface API
 //The Java Naming and Directory Interface™ (JNDI) is an application programming interface (API) that provides naming and directory functionality to applications written using the Java™ programming language.

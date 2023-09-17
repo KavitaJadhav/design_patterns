@@ -1,3 +1,4 @@
+//Creational Pattern
 //prototype factory pattern is used to create objects of same class with same values
 //helps in ensure abstraction and encapsulation as behaviour is present in class itself(clone method)
 //Can be achieved using Cloneable interface

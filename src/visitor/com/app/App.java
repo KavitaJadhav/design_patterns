@@ -1,5 +1,6 @@
+//Behavioural Pattern
 //Visitor pattern is used when we have to perform an operation on a group of similar kind of Objects.
-// With the help of visitor pattern, we can move the operational logic from the objects to another class.
+//With the help of visitor pattern, we can move the operational logic from the objects to another class.
 //It decouples the operations from an object structure. We can add behaviour for existing classes
 
 //Get sum of items in shopping cart

@@ -11,7 +11,7 @@
 //Adapter pattern in Java
 // Old format - String names[] = {"Kavita", "Jyoti"}
 // New format - List<String> names = new ArrayList()
-//List<String> names  = Array.asList(names)   ---> Adaptor
+//List<String> names  = Arrays.asList(names)   ---> Adaptor
 
 
 //Explanation
