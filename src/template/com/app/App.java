@@ -1,6 +1,6 @@
 //Behavioural Pattern
 //Use to create template for common behaviour of similar objects
-// Inheritance over composition. Decides on object type at runtime
+// Inheritance over composition. Decides on object type at runtime(I think its compile time. verify)
 // Opposite to Strategy pattern
 // if solution can be achieved using Strategy pattern, then using Strategy pattern is recommended
 
@@ -15,8 +15,8 @@ import java.util.List;
 public class App {
     public static void main(String[] args) {
         List<Teams> teams = new ArrayList<>();
-        teams.add(new Teams("Team1"));
-        teams.add(new Teams("Team2"));
+        teams.add(new Teams("Home Team"));
+        teams.add(new Teams("Away Team"));
 
         Cricket cricket = new Cricket(teams);
         cricket.play();

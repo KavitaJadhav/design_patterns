@@ -1,5 +1,5 @@
 //creational design patterns
-//Enum are compile time instances, threadsafe
+//Enum are compile time instances, threadsafe #can make them threadsafe
 //have to use synchronization in methods explicitly to make them threadsafe
 
  package singleton_enum.com.app;

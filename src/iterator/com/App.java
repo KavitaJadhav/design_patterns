@@ -19,8 +19,9 @@ public class App {
 
         PersonIterator personIterator = new PersonIterator((ArrayList) people_list);
 
-        while (personIterator.getIterator().hasNext()) {
-            System.out.println(personIterator.getIterator().next().toString());
+        ListIterator iterator = personIterator.getIterator();
+        while (iterator.hasNext()) {
+            System.out.println(iterator.next().toString());
         }
 
         System.out.println("-----Printing task list-----");

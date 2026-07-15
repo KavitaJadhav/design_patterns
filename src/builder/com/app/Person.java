@@ -6,6 +6,7 @@ public class Person {
     private String address;
     private int age;
 
+//    Todo - I think constructure should be private - validate..
     public Person(PersonBuilder personBuilder) {
         this.name = personBuilder.name;
         this.email = personBuilder.email;

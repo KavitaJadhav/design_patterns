@@ -13,7 +13,6 @@ public class SortManager {
     }
 
     public void bubbleSort() {
-        /*Sorters are initialised in constructor to avoid creating them in every call   */
         bubbleSorter.sort();
     }
 

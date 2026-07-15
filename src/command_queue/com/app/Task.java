@@ -1,11 +1,14 @@
 package command_queue.com.app;
 
 public class Task {
+    public int getId() {
+        return id;
+    }
+
     private int id;
 
     public Task(int id) {
         this.id = id;
-        System.out.println("Added task with id: " + id);
     }
 
     public void run() {

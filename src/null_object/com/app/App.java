@@ -1,5 +1,5 @@
 // Behavioural Pattern
-// Null object pattern is used to represent absence ob object
+// Null object pattern is used to represent absence of object
 // It is used to avoid null pointer exception and avoid if checks
 
 package null_object.com.app;

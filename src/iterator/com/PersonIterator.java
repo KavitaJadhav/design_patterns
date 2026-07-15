@@ -5,6 +5,7 @@ import java.util.List;
 
 public class PersonIterator {
     private ListIterator iterator;
+//    Todo: Seems not needed people_list
     private List<Person> people_list;
 
     public PersonIterator(ArrayList people_list) {

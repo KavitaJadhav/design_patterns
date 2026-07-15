@@ -6,7 +6,7 @@
 //Get sum of items in shopping cart
 
 //Description - site visitor adds items in cart and checks for cart value. Multiple visitors can access same details on same item
-//Items are accepting visitor and
+//Items are accepting visitor
 
 package visitor.com.app;
 

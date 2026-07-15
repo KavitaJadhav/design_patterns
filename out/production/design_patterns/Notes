@@ -1,0 +1,18 @@
+Creational design patterns -creational patterns provide various object creation mechanisms which increase flexibility and reuse of existing code
+1. Singleton Pattern- Ensure only one object is created
+2. Factory(Abstract) Pattern - Creates objects
+3. Builder pattern - Create immutable objects using object builder. Avoid creation of telescoping constructors for default/optional vaues
+4. Prototype Pattern - Create copy/clone of object
+
+Behavioural Design Patterns -identify common communication patterns between objects. These patterns increase flexibility in carrying out the communication.
+1. strategy pattern
+
+   observer pattern
+
+   command pattern
+
+   template pattern
+
+   visitor pattern
+
+   null object and the iterator patterns-

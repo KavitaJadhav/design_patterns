@@ -1,5 +1,6 @@
+//Creational pattern
 // Problems with large classes
-//1. Difficult to manage large list of attributes. have to create multiple constructors to manage optional parameters etc.
+//1. Difficult to manage large list of attributes. have to create multiple constructors(telescoping constructors) to manage optional parameters etc.
 //2. Adding new attributes needs changes at multiple places
 //3. Manage sequence of parameters
 

@@ -1,0 +1,64 @@
+The Gang of Four (GoF) design patterns are 23 classic solutions to recurring software design problems, first documented in the 1994 book Design Patterns: Elements of Reusable Object-Oriented Software. Authored by Erich Gamma, Richard Helm, Ralph Johnson, and John Vlissides, these patterns provide blueprints for creating flexible, maintainable, and reusable object-oriented code. [1, 2, 3, 4, 5]
+
+[Gang of Four Design Patterns](https://www.scholarhat.com/tutorial/designpatterns/gang-of-four-gof-design-patterns)
+
+Creational Patterns
+These patterns focus on the mechanisms of object creation, helping to decouple a system from how its objects are instantiated and composed. [4, 6]
+
+* Abstract Factory: Provides an interface for creating families of related or dependent objects without specifying their concrete classes.
+* Builder: Separates the construction of a complex object from its representation, allowing the same construction process to create different representations.
+* Factory Method: Defines an interface for creating an object but lets subclasses decide which class to instantiate.
+* Prototype: Creates new objects by cloning an existing "prototype" instance rather than using a constructor.
+* Singleton: Ensures a class has only one instance and provides a global point of access to it. [2, 3, 7, 8, 9, 10, 11]
+
+Structural Patterns
+Structural patterns deal with the composition of classes and objects to form larger, more efficient structures while keeping them flexible. [12, 13]
+
+* Adapter: Allows two incompatible interfaces to work together by wrapping one in an adapter class.
+* Bridge: Decouples an abstraction from its implementation so that the two can vary independently.
+* Composite: Composes objects into tree structures to represent part-whole hierarchies, treating individual objects and compositions uniformly.
+* Decorator: Attaches additional responsibilities to an object dynamically as a flexible alternative to subclassing.
+* Facade: Provides a simplified, high-level interface to a complex set of interfaces in a subsystem.
+* Flyweight: Uses sharing to support large numbers of fine-grained objects efficiently, reducing memory usage.
+* Proxy: Provides a surrogate or placeholder for another object to control access to it. [3, 11, 12, 14, 15, 16, 17, 18, 19]
+
+Behavioral Patterns
+These patterns focus on communication between objects, defining how they interact and distribute responsibilities. [3, 5, 20]
+
+* Chain of Responsibility: Passes a request along a chain of potential handlers until one handles it.
+* Command: Encapsulates a request as an object, allowing you to parameterize clients with different requests or queue them.
+* Interpreter: Defines a representation for a language's grammar along with an interpreter to evaluate expressions.
+* Iterator: Provides a way to access elements of a collection sequentially without exposing its underlying structure.
+* Mediator: Defines an object that encapsulates how a set of objects interact, promoting loose coupling by keeping objects from referring to each other explicitly.
+* Memento: Captures and externalizes an object's internal state so it can be restored later without violating encapsulation.
+* Observer: Defines a one-to-many dependency so that when one object changes state, all its dependents are notified automatically.
+* State: Allows an object to alter its behavior when its internal state changes, appearing as if its class has changed.
+* Strategy: Defines a family of algorithms, encapsulates each one, and makes them interchangeable at runtime.
+* Template Method: Defines the skeleton of an algorithm in an operation, deferring some steps to subclasses.
+* Visitor: Lets you define a new operation without changing the classes of the elements on which it operates. [3, 5, 8, 11, 12, 13, 21, 22, 23]
+
+Would you like to see a code example for a specific pattern, such as Singleton or Strategy, in a particular programming language?
+
+[1] [https://www.digitalocean.com](https://www.digitalocean.com/community/tutorials/gangs-of-four-gof-design-patterns)
+[2] [https://www.geeksforgeeks.org](https://www.geeksforgeeks.org/system-design/gang-of-four-gof-design-patterns/)
+[3] [https://www.coursera.org](https://www.coursera.org/articles/gang-of-four-design-patterns)
+[4] [https://sandeep-rai.medium.com](https://sandeep-rai.medium.com/gof-design-patterns-an-overview-70f18eae8032)
+[5] [https://www.coursera.org](https://www.coursera.org/articles/gang-of-four-design-patterns)
+[6] [https://sandeep-rai.medium.com](https://sandeep-rai.medium.com/gof-design-patterns-an-overview-70f18eae8032)
+[7] [https://gist.github.com](https://gist.github.com/xnuinside/0de6418355d39a3babbd857c25457861)
+[8] [https://medium.com](https://medium.com/@sayyedulawwab/introduction-to-gof-design-patterns-what-they-are-when-to-use-with-github-examples-006d58e82cea)
+[9] [https://learncsdesigns.medium.com](https://learncsdesigns.medium.com/understanding-the-gang-of-four-gof-design-patterns-using-python-54fcf2086d44)
+[10] [https://medium.com](https://medium.com/@EngineeringVision/understanding-gang-of-four-gof-design-patterns-efe4ef0bf18e)
+[11] [https://medium.com](https://medium.com/@sayyedulawwab/introduction-to-gof-design-patterns-what-they-are-when-to-use-with-github-examples-006d58e82cea)
+[12] [https://dev.to](https://dev.to/lovestaco/introduction-to-gang-of-four-gof-design-patterns-57m0)
+[13] [https://www.youtube.com](https://www.youtube.com/shorts/zfM1G3ys-d8)
+[14] [https://dev.to](https://dev.to/lovestaco/the-gang-of-four-gof-design-patterns-a-developers-guide-473a)
+[15] [https://www.geeksforgeeks.org](https://www.geeksforgeeks.org/system-design/gang-of-four-gof-design-patterns/)
+[16] [https://medium.com](https://medium.com/@liams_o/gang-of-four-fundamental-design-patterns-41a85a562954)
+[17] [https://medium.com](https://medium.com/design-bootcamp/understanding-the-decorator-design-pattern-in-go-a-practical-guide-493b4048f953#:~:text=Official%20Definition.%20According%20to%20the%20%E2%80%9CGang%20of,flexible%20alternative%20to%20subclassing%20for%20extending%20functionality.%E2%80%9D)
+[18] [https://dev.to](https://dev.to/lovestaco/introduction-to-gang-of-four-gof-design-patterns-57m0)
+[19] [https://medium.com](https://medium.com/design-bootcamp/understanding-the-facade-design-pattern-in-go-a-practical-guide-1f28441f02b4#:~:text=Official%20Definition.%20According%20to%20the%20Gang%20of,that%20makes%20the%20subsystem%20easier%20to%20use.%E2%80%9D)
+[20] [https://www.geeksforgeeks.org](https://www.geeksforgeeks.org/system-design/introduction-to-gang-of-fourgof-design-patterns/)
+[21] [https://www.geeksforgeeks.org](https://www.geeksforgeeks.org/system-design/gang-of-four-gof-design-patterns/)
+[22] [https://dev.to](https://dev.to/lovestaco/introduction-to-gang-of-four-gof-design-patterns-57m0)
+[23] [https://medium.com](https://medium.com/@ahmettemelkundupoglu/mastering-the-state-design-pattern-in-java-a-detailed-guide-with-examples-4544a975a914#:~:text=The%20State%20Design%20Pattern%20is%20one%20of,the%20object%20appear%20to%20change%20its%20class.)

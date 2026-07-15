@@ -5,6 +5,7 @@ public class TaskRunner implements Command {
 
     public TaskRunner(Task task) {
         this.task = task;
+        System.out.println("Added task with id: " + task.getId());
     }
 
     @Override
